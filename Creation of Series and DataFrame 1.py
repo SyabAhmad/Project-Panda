@@ -10,3 +10,14 @@ print(data['a'])
 # update Values at spacific index
 data['a'] = 44
 print(data)
+
+#to print max value
+print(data.max())
+
+# ro print Min Value
+print(data.min())
+
+# describe function is used for to find basics of statistics e.g. mean std, min, count etc
+print(data.describe())
+
+
