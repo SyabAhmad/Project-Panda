@@ -26,4 +26,21 @@ print(customerData.columns)
 # to find technical info about that Data e.g.g size of document, Data Types
 print(customerData.info())
 
+# to print type of data set
+# should show DataFrame
+print(type(customerData))
+# should show Series
+print(type(customerData["Customer Id"]))
+print(type(customerData["Phone 1"]))
 
+
+# filtering
+print(customerData["Website"]==False)
+
+# to find total rows and columns
+print(customerData.shape)
+# to use isin values
+print(customerData["Customer Id"].isin([2,3]))
+
+# notna function
+print(customerData["Customer Id"].notna())
