@@ -35,3 +35,21 @@ print(data)
 print(type(data))
 
 ```
+### To create Dataframe
+
+```python runable
+import pandas as pd
+# will create a series of data
+data = pd.Dataframe(["Column1": [1,2,3,4,5,6], "Column2": [1,2,3,4,5,6]], index=['a','b', 'c', 'd', 'e', 'f'])
+# will print the data
+print(data)
+
+```
+
+### to print type of data
+
+```python runable
+# will print the type of data objects
+print(type(data))
+
+```
