@@ -53,3 +53,16 @@ print(data)
 print(type(data))
 
 ```
+
+### to create Seriese from day 1 and day 2 only
+```python runable
+import pandas as pd
+
+calories = {"day1": 420, "day2": 380, "day3": 390}
+
+myvar = pd.Series(calories, index = ["day1", "day2"])
+
+print(myvar)
+```
+
+
