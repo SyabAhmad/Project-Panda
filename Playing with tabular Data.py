@@ -23,7 +23,7 @@ print(customerData["Customer Id"].count())
 # to print columns Names
 print(customerData.columns)
 
-# to find technical info about that Data e.g.g size of document, Data Types
+# to find technical info about that Data e.g. size of document, Data Types
 print(customerData.info())
 
 # to print type of data set

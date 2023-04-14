@@ -20,3 +20,6 @@ print(data.describe())
 print(data.max())
 print(data.min())
 
+# selecting subset from dataframe
+data1 = data['Names']
+print(data1)
