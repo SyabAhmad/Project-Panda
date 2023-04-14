@@ -1,6 +1,6 @@
 # Project-Panda
 
-### There are two type Dataframes
+# There are two type Dataframes
 
 ```Series``` and ```DataFrames```
 
@@ -8,16 +8,16 @@
 
 ```Dataframes``` are General ```2D``` labeled, size-mutable tabular structure with potentially ```heterogeneously-typed``` column
 
-### Creation od series and Data Frames
+# Creation od series and Data Frames
 
-### to import Panda 
+# To import Panda 
 
 ```python runable
 import pandas as pd
 
 ```
 
-### To create Series
+# To create Series
 
 ```python runable
 import pandas as pd
@@ -28,14 +28,14 @@ print(data)
 
 ```
 
-### to print type of data
+# To print type of data
 
 ```python runable
 # will print the type of data objects
 print(type(data))
 
 ```
-### To create Dataframe
+# To create Dataframe
 
 ```python runable
 import pandas as pd
@@ -46,7 +46,7 @@ print(data)
 
 ```
 
-### to print type of data
+# To print type of data
 
 ```python runable
 # will print the type of data objects
@@ -54,7 +54,7 @@ print(type(data))
 
 ```
 
-### to create Seriese from day 1 and day 2 only
+# To create Seriese from day 1 and day 2 only
 ```python runable
 import pandas as pd
 
