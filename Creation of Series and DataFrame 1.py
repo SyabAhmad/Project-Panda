@@ -7,7 +7,7 @@ print(data)
 
 print(data['a'])
 
-# update Values at spacific index
+# update Values at specific index
 data['a'] = 44
 print(data)
 
