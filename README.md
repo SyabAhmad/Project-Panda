@@ -80,3 +80,21 @@ data = pd.DataFrame({
 print(data)
 
 ```
+# Example of Data Frame # #1 Continue
+```python runable
+
+# to print specific column
+print(data["Age"])
+print(data["Names"])
+print(data["sex"])
+
+# to describe and find max and min
+print(data.describe())
+print(data.max())
+print(data.min())
+
+# selecting subset from dataframe
+data1 = data['Names']
+print(data1)
+
+```
