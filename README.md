@@ -65,4 +65,18 @@ myvar = pd.Series(calories, index = ["day1", "day2"])
 print(myvar)
 ```
 
+# Example of Data Frame # #1
+```python runable
+import pandas as pd
+import numpy as np
+print("Creation of Data Frames")
 
+data = pd.DataFrame({
+    "Names": np.array(["Syab", "Fayaz", "Adeel", "Eyad", "Rehan"]),
+    "Age": np.array([23, 25, 16, 13, 12]),
+    "sex": np.array(["male","male","male","male","male",])
+})
+
+print(data)
+
+```
